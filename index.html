@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation Activity 2</title>
+
+     <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+</head>
+<body>
+    <h1>Math Club: Add a new club member</h1>
+    <form>
+         <input type="text" id="fname" placeholder="Enter your first name"><br>
+        <input type="text" id="lname" placeholder="Enter your last name"><br>
+        <input type="button" py-click="add_member" value="Submit">
+    </form>
+    <div id="div1"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
